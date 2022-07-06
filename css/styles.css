@@ -70,7 +70,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #000;
-  height: 1000vh;
 }
 
 h1,
@@ -255,10 +254,9 @@ h6 {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
-
-  padding: 0 2rem;
+  padding: 5rem 2rem;
 }
 
 .bg-light-green {
@@ -286,6 +284,67 @@ h6 {
   line-height: 1.6;
 }
 /*---------- Plans Section ----------*/
+
+/*---------- Call To Action SECTION ----------*/
+.section-call-to-action-content {
+  min-height: 426px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  gap: 5rem;
+  border-radius: 10px;
+}
+
+.section-call-to-action-content .left h2 {
+  margin-bottom: 2rem;
+}
+
+.section-call-to-action-content .left .buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section-call-to-action-content .left {
+  flex: 0.7;
+}
+
+.section-call-to-action-content .right {
+  flex: 0.3;
+}
+
+.section-call-to-action-content .right img {
+  width: 100%;
+}
+
+.cta-btn {
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  background-color: #ff5959;
+  color: #fff;
+  font-size: 1.8rem;
+  transition: 100ms all ease-in-out;
+}
+
+.cta-btn:hover {
+  background-color: #d34343;
+}
+
+.cta-btn-muted {
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: #000;
+  font-size: 1.8rem;
+  transition: 100ms all ease-in-out;
+}
+
+.cta-btn-muted:hover {
+  background-color: #ff5959;
+  color: #fff;
+}
+/*---------- Call To Action SECTION ----------*/
 
 /*---------- Section Subscribe ----------*/
 #section-subscribe-content {
@@ -327,3 +386,25 @@ h6 {
   transition: 100ms all ease-in-out;
 }
 /*---------- Section Subscribe ----------*/
+
+/*---------- Footer Section ----------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #000;
+}
+
+.footer-heading {
+  font-family: 'Lobster', cursive;
+  color: #ff5959;
+  font-size: 3.6rem;
+}
+
+.footer-text {
+  font-size: 1.4rem;
+  color: #d9dbe1;
+}
+/*---------- Footer Section ----------*/
